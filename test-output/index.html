@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Selenium-Youtube_Workspace\nopCommerceCapstone\master.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 2 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CheckoutTest" class="method navigator-link" hash-for-method="testCheckoutProcess">testCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.RegisterExcel" class="method navigator-link" hash-for-method="testUserRegistration">testUserRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Register" class="method navigator-link" hash-for-method="RegisteredUserCanLogin">RegisteredUserCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.RegisterDataProvider" class="method navigator-link" hash-for-method="RegisteredUserCanLogin(praveenburri@gmail.com, 1987665)">RegisteredUserCanLogin(praveenburri@gmail.com, 1987665)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Register" class="method navigator-link" hash-for-method="RegisteredUserCanLogout">RegisteredUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.RegisterDataProvider" class="method navigator-link" hash-for-method="RegisteredUserCanLogout">RegisteredUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.RegisterDataProvider" class="method navigator-link" hash-for-method="ValidRegistration(Sri, Sra, praveenburri@gmail.com, 1987665)">ValidRegistration(Sri, Sra, praveenburri@gmail.com, 1987665)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Register" class="method navigator-link" hash-for-method="ValidRegistration">ValidRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="closeNotificationBar">closeNotificationBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="loggedInUserCanChangePassword">loggedInUserCanChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="registeredUserCanLogin">registeredUserCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="registeredUserCanLogout">registeredUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="registeredUserCanLogoutAfterPasswordChange">registeredUserCanLogoutAfterPasswordChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.wishListTest" class="method navigator-link" hash-for-method="searchAboutProduct">searchAboutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchTest" class="method navigator-link" hash-for-method="searchAboutProduct">searchAboutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchByAutoSuggest" class="method navigator-link" hash-for-method="searchWithAutoSuggest">searchWithAutoSuggest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CartTest" class="method navigator-link" hash-for-method="userCanAddProductToCart">userCanAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.wishListTest" class="method navigator-link" hash-for-method="userCanAddProductToWishList">userCanAddProductToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="userCanLoginWithNewPassword">userCanLoginWithNewPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CartTest" class="method navigator-link" hash-for-method="userCanRemoveProductFromCart">userCanRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.wishListTest" class="method navigator-link" hash-for-method="userCanRemoveProductFromWishList">userCanRemoveProductFromWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchTest" class="method navigator-link" hash-for-method="userCanSearch">userCanSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CartTest" class="method navigator-link" hash-for-method="userCanSearchAndOpenProduct">userCanSearchAndOpenProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchByAutoSuggest" class="method navigator-link" hash-for-method="userCanSearchWithAutoSuggest">userCanSearchWithAutoSuggest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.CartTest" class="method navigator-link" hash-for-method="userCanUpdateProductQuantity">userCanUpdateProductQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MyAccountTests" class="method navigator-link" hash-for-method="validRegistration">validRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateCartIconClickable">validateCartIconClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateCurrencyDropdown">validateCurrencyDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateHomePageLoaded">validateHomePageLoaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateHomePageURL">validateHomePageURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateLoginButtonClickable">validateLoginButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateLogoDisplayed">validateLogoDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateRegisterButtonClickable">validateRegisterButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateScrollToContactUs">validateScrollToContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SmokeTestAll" class="method navigator-link" hash-for-method="validateTopMenuHover">validateTopMenuHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutProcess">
+                  </a> <!-- testCheckoutProcess -->
+                  <span class="method-name">testCheckoutProcess</span>
+                  <div class="stack-trace">java.lang.AssertionError:  Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@onclick=&apos;if (!window.__cfRLUnblockHandlers) return false; Billing.save()&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at TestCases.CheckoutTest.testCheckoutProcess(CheckoutTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.RegisterExcel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserRegistration">
+                  </a> <!-- testUserRegistration -->
+                  <span class="method-name">testUserRegistration</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
+	at Utilities.ExcelReader.setExcelFile(ExcelReader.java:14)
+	at TestCases.RegisterExcel.getRegisterData(RegisterExcel.java:20)
+	... 25 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.MyAccountTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeNotificationBar">
+                  </a> <!-- closeNotificationBar -->
+                  <span class="method-name">closeNotificationBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggedInUserCanChangePassword">
+                  </a> <!-- loggedInUserCanChangePassword -->
+                  <span class="method-name">loggedInUserCanChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registeredUserCanLogin">
+                  </a> <!-- registeredUserCanLogin -->
+                  <span class="method-name">registeredUserCanLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registeredUserCanLogout">
+                  </a> <!-- registeredUserCanLogout -->
+                  <span class="method-name">registeredUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registeredUserCanLogoutAfterPasswordChange">
+                  </a> <!-- registeredUserCanLogoutAfterPasswordChange -->
+                  <span class="method-name">registeredUserCanLogoutAfterPasswordChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLoginWithNewPassword">
+                  </a> <!-- userCanLoginWithNewPassword -->
+                  <span class="method-name">userCanLoginWithNewPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validRegistration">
+                  </a> <!-- validRegistration -->
+                  <span class="method-name">validRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.SmokeTestAll</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCartIconClickable">
+                  </a> <!-- validateCartIconClickable -->
+                  <span class="method-name">validateCartIconClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCurrencyDropdown">
+                  </a> <!-- validateCurrencyDropdown -->
+                  <span class="method-name">validateCurrencyDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageLoaded">
+                  </a> <!-- validateHomePageLoaded -->
+                  <span class="method-name">validateHomePageLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageTitle">
+                  </a> <!-- validateHomePageTitle -->
+                  <span class="method-name">validateHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageURL">
+                  </a> <!-- validateHomePageURL -->
+                  <span class="method-name">validateHomePageURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginButtonClickable">
+                  </a> <!-- validateLoginButtonClickable -->
+                  <span class="method-name">validateLoginButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogoDisplayed">
+                  </a> <!-- validateLogoDisplayed -->
+                  <span class="method-name">validateLogoDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterButtonClickable">
+                  </a> <!-- validateRegisterButtonClickable -->
+                  <span class="method-name">validateRegisterButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateScrollToContactUs">
+                  </a> <!-- validateScrollToContactUs -->
+                  <span class="method-name">validateScrollToContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTopMenuHover">
+                  </a> <!-- validateTopMenuHover -->
+                  <span class="method-name">validateTopMenuHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.SearchByAutoSuggest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchWithAutoSuggest">
+                  </a> <!-- searchWithAutoSuggest -->
+                  <span class="method-name">searchWithAutoSuggest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchWithAutoSuggest">
+                  </a> <!-- userCanSearchWithAutoSuggest -->
+                  <span class="method-name">userCanSearchWithAutoSuggest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisteredUserCanLogin">
+                  </a> <!-- RegisteredUserCanLogin -->
+                  <span class="method-name">RegisteredUserCanLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisteredUserCanLogout">
+                  </a> <!-- RegisteredUserCanLogout -->
+                  <span class="method-name">RegisteredUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidRegistration">
+                  </a> <!-- ValidRegistration -->
+                  <span class="method-name">ValidRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.wishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAboutProduct">
+                  </a> <!-- searchAboutProduct -->
+                  <span class="method-name">searchAboutProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAddProductToWishList">
+                  </a> <!-- userCanAddProductToWishList -->
+                  <span class="method-name">userCanAddProductToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanRemoveProductFromWishList">
+                  </a> <!-- userCanRemoveProductFromWishList -->
+                  <span class="method-name">userCanRemoveProductFromWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAboutProduct">
+                  </a> <!-- searchAboutProduct -->
+                  <span class="method-name">searchAboutProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearch">
+                  </a> <!-- userCanSearch -->
+                  <span class="method-name">userCanSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanAddProductToCart">
+                  </a> <!-- userCanAddProductToCart -->
+                  <span class="method-name">userCanAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanRemoveProductFromCart">
+                  </a> <!-- userCanRemoveProductFromCart -->
+                  <span class="method-name">userCanRemoveProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanSearchAndOpenProduct">
+                  </a> <!-- userCanSearchAndOpenProduct -->
+                  <span class="method-name">userCanSearchAndOpenProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanUpdateProductQuantity">
+                  </a> <!-- userCanUpdateProductQuantity -->
+                  <span class="method-name">userCanUpdateProductQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.RegisterDataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisteredUserCanLogin(praveenburri@gmail.com, 1987665)">
+                  </a> <!-- RegisteredUserCanLogin(praveenburri@gmail.com, 1987665) -->
+                  <span class="method-name">RegisteredUserCanLogin</span>
+                  <span class="parameters">(praveenburri@gmail.com,1987665)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisteredUserCanLogout">
+                  </a> <!-- RegisteredUserCanLogout -->
+                  <span class="method-name">RegisteredUserCanLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidRegistration(Sri, Sra, praveenburri@gmail.com, 1987665)">
+                  </a> <!-- ValidRegistration(Sri, Sra, praveenburri@gmail.com, 1987665) -->
+                  <span class="method-name">ValidRegistration</span>
+                  <span class="parameters">(Sri,Sra,praveenburri@gmail.com,1987665)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium-Youtube_Workspace\nopCommerceCapstone\master.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;nopCommerceTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.SmokeTestAll&quot;/&gt;
+      &lt;class name=&quot;TestCases.Register&quot;/&gt;
+      &lt;class name=&quot;TestCases.RegisterDataProvider&quot;/&gt;
+      &lt;class name=&quot;TestCases.MyAccountTests&quot;/&gt;
+      &lt;class name=&quot;TestCases.SearchTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.SearchByAutoSuggest&quot;/&gt;
+      &lt;class name=&quot;TestCases.wishListTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.CartTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;TestCases.RegisterExcel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- nopCommerceTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">nopCommerceTest (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCheckoutProcess')
+data.setCell(0, 2, 'TestCases.CheckoutTest')
+data.setCell(0, 3, 47975);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidRegistration')
+data.setCell(1, 2, 'TestCases.RegisterDataProvider')
+data.setCell(1, 3, 23742);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RegisteredUserCanLogout')
+data.setCell(2, 2, 'TestCases.RegisterDataProvider')
+data.setCell(2, 3, 20163);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'RegisteredUserCanLogin')
+data.setCell(3, 2, 'TestCases.RegisterDataProvider')
+data.setCell(3, 3, 12810);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userCanUpdateProductQuantity')
+data.setCell(4, 2, 'TestCases.CartTest')
+data.setCell(4, 3, 11262);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validRegistration')
+data.setCell(5, 2, 'TestCases.MyAccountTests')
+data.setCell(5, 3, 7702);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ValidRegistration')
+data.setCell(6, 2, 'TestCases.Register')
+data.setCell(6, 3, 5448);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchWithAutoSuggest')
+data.setCell(7, 2, 'TestCases.SearchByAutoSuggest')
+data.setCell(7, 3, 4185);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'userCanSearchWithAutoSuggest')
+data.setCell(8, 2, 'TestCases.SearchByAutoSuggest')
+data.setCell(8, 3, 4086);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loggedInUserCanChangePassword')
+data.setCell(9, 2, 'TestCases.MyAccountTests')
+data.setCell(9, 3, 3284);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'RegisteredUserCanLogin')
+data.setCell(10, 2, 'TestCases.Register')
+data.setCell(10, 3, 2956);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'registeredUserCanLogoutAfterPasswordChange')
+data.setCell(11, 2, 'TestCases.MyAccountTests')
+data.setCell(11, 3, 2752);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'registeredUserCanLogin')
+data.setCell(12, 2, 'TestCases.MyAccountTests')
+data.setCell(12, 3, 2748);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'userCanLoginWithNewPassword')
+data.setCell(13, 2, 'TestCases.MyAccountTests')
+data.setCell(13, 3, 2639);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'userCanSearchAndOpenProduct')
+data.setCell(14, 2, 'TestCases.CartTest')
+data.setCell(14, 3, 2374);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchAboutProduct')
+data.setCell(15, 2, 'TestCases.SearchTest')
+data.setCell(15, 3, 2237);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'RegisteredUserCanLogout')
+data.setCell(16, 2, 'TestCases.Register')
+data.setCell(16, 3, 2060);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchAboutProduct')
+data.setCell(17, 2, 'TestCases.wishListTest')
+data.setCell(17, 3, 2024);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'userCanAddProductToCart')
+data.setCell(18, 2, 'TestCases.CartTest')
+data.setCell(18, 3, 1997);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateTopMenuHover')
+data.setCell(19, 2, 'TestCases.SmokeTestAll')
+data.setCell(19, 3, 1768);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'registeredUserCanLogout')
+data.setCell(20, 2, 'TestCases.MyAccountTests')
+data.setCell(20, 3, 1500);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'userCanSearch')
+data.setCell(21, 2, 'TestCases.SearchTest')
+data.setCell(21, 3, 1437);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateRegisterButtonClickable')
+data.setCell(22, 2, 'TestCases.SmokeTestAll')
+data.setCell(22, 3, 1098);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateLoginButtonClickable')
+data.setCell(23, 2, 'TestCases.SmokeTestAll')
+data.setCell(23, 3, 1041);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateCurrencyDropdown')
+data.setCell(24, 2, 'TestCases.SmokeTestAll')
+data.setCell(24, 3, 1033);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'userCanAddProductToWishList')
+data.setCell(25, 2, 'TestCases.wishListTest')
+data.setCell(25, 3, 687);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'userCanRemoveProductFromWishList')
+data.setCell(26, 2, 'TestCases.wishListTest')
+data.setCell(26, 3, 687);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'userCanRemoveProductFromCart')
+data.setCell(27, 2, 'TestCases.CartTest')
+data.setCell(27, 3, 608);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateHomePageLoaded')
+data.setCell(28, 2, 'TestCases.SmokeTestAll')
+data.setCell(28, 3, 383);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'closeNotificationBar')
+data.setCell(29, 2, 'TestCases.MyAccountTests')
+data.setCell(29, 3, 244);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateScrollToContactUs')
+data.setCell(30, 2, 'TestCases.SmokeTestAll')
+data.setCell(30, 3, 142);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateCartIconClickable')
+data.setCell(31, 2, 'TestCases.SmokeTestAll')
+data.setCell(31, 3, 100);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateHomePageTitle')
+data.setCell(32, 2, 'TestCases.SmokeTestAll')
+data.setCell(32, 3, 58);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validateLogoDisplayed')
+data.setCell(33, 2, 'TestCases.SmokeTestAll')
+data.setCell(33, 3, 44);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'validateHomePageURL')
+data.setCell(34, 2, 'TestCases.SmokeTestAll')
+data.setCell(34, 3, 11);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testUserRegistration')
+data.setCell(35, 2, 'TestCases.RegisterExcel')
+data.setCell(35, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SmokeTestAll</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageLoaded</span>
+                <span class="method-start">4315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageTitle</span>
+                <span class="method-start">4705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageURL</span>
+                <span class="method-start">4767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLogoDisplayed</span>
+                <span class="method-start">4781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterButtonClickable</span>
+                <span class="method-start">4829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLoginButtonClickable</span>
+                <span class="method-start">5932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateScrollToContactUs</span>
+                <span class="method-start">6982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateTopMenuHover</span>
+                <span class="method-start">7126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCurrencyDropdown</span>
+                <span class="method-start">8899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateCartIconClickable</span>
+                <span class="method-start">9939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10042 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Register</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">10422 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidRegistration</span>
+                <span class="method-start">18602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegisteredUserCanLogout</span>
+                <span class="method-start">24057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegisteredUserCanLogin</span>
+                <span class="method-start">26122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29082 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.RegisterDataProvider</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">29606 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidRegistration(Sri, Sra, praveenburri@gmail.com, 1987665)</span>
+                <span class="method-start">32992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegisteredUserCanLogout</span>
+                <span class="method-start">56740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RegisteredUserCanLogin(praveenburri@gmail.com, 1987665)</span>
+                <span class="method-start">76908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89721 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MyAccountTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">90218 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validRegistration</span>
+                <span class="method-start">93951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registeredUserCanLogout</span>
+                <span class="method-start">101659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registeredUserCanLogin</span>
+                <span class="method-start">103162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loggedInUserCanChangePassword</span>
+                <span class="method-start">105913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeNotificationBar</span>
+                <span class="method-start">109202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registeredUserCanLogoutAfterPasswordChange</span>
+                <span class="method-start">109450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanLoginWithNewPassword</span>
+                <span class="method-start">112205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114847 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">115125 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchAboutProduct</span>
+                <span class="method-start">118957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanSearch</span>
+                <span class="method-start">121196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122636 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchByAutoSuggest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">122911 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchWithAutoSuggest</span>
+                <span class="method-start">127410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchWithAutoSuggest</span>
+                <span class="method-start">131597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135686 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.wishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">135986 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchAboutProduct</span>
+                <span class="method-start">139618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanAddProductToWishList</span>
+                <span class="method-start">141645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanRemoveProductFromWishList</span>
+                <span class="method-start">142336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143024 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">143237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">userCanSearchAndOpenProduct</span>
+                <span class="method-start">146815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanAddProductToCart</span>
+                <span class="method-start">149191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanUpdateProductQuantity</span>
+                <span class="method-start">151190 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanRemoveProductFromCart</span>
+                <span class="method-start">162454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163065 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">163376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutProcess</span>
+                <span class="method-start">168691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216881 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.RegisterExcel</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">217339 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">221772 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

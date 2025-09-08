@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="34" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T19:02:07 IST" name="Suite" finished-at="2025-09-08T19:05:49 IST" duration-ms="222027">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T19:02:07 IST" name="nopCommerceTest" finished-at="2025-09-08T19:05:49 IST" duration-ms="222027">
+      <class name="TestCases.MyAccountTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:37 IST" name="setUp" finished-at="2025-09-08T19:03:41 IST" duration-ms="3732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validRegistration()[pri:1, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:41 IST" name="validRegistration" finished-at="2025-09-08T19:03:48 IST" duration-ms="7702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistration -->
+        <test-method signature="registeredUserCanLogout()[pri:2, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:48 IST" name="registeredUserCanLogout" finished-at="2025-09-08T19:03:50 IST" depends-on-methods="TestCases.MyAccountTests.validRegistration" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserCanLogout -->
+        <test-method signature="registeredUserCanLogin()[pri:3, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:50 IST" name="registeredUserCanLogin" finished-at="2025-09-08T19:03:53 IST" depends-on-methods="TestCases.MyAccountTests.registeredUserCanLogout" duration-ms="2748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserCanLogin -->
+        <test-method signature="loggedInUserCanChangePassword()[pri:4, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:53 IST" name="loggedInUserCanChangePassword" finished-at="2025-09-08T19:03:56 IST" depends-on-methods="TestCases.MyAccountTests.registeredUserCanLogin" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggedInUserCanChangePassword -->
+        <test-method signature="closeNotificationBar()[pri:5, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:56 IST" name="closeNotificationBar" finished-at="2025-09-08T19:03:56 IST" depends-on-methods="TestCases.MyAccountTests.loggedInUserCanChangePassword" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeNotificationBar -->
+        <test-method signature="registeredUserCanLogoutAfterPasswordChange()[pri:6, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:56 IST" name="registeredUserCanLogoutAfterPasswordChange" finished-at="2025-09-08T19:03:59 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserCanLogoutAfterPasswordChange -->
+        <test-method signature="userCanLoginWithNewPassword()[pri:7, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:03:59 IST" name="userCanLoginWithNewPassword" finished-at="2025-09-08T19:04:01 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginWithNewPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.MyAccountTests@3220c28]" started-at="2025-09-08T19:04:01 IST" name="tearDown" finished-at="2025-09-08T19:04:02 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.MyAccountTests -->
+      <class name="TestCases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.SearchTest@6ae42248]" started-at="2025-09-08T19:04:02 IST" name="setUp" finished-at="2025-09-08T19:04:06 IST" duration-ms="3832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAboutProduct()[pri:0, instance:TestCases.SearchTest@6ae42248]" started-at="2025-09-08T19:04:06 IST" name="searchAboutProduct" finished-at="2025-09-08T19:04:08 IST" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAboutProduct -->
+        <test-method signature="userCanSearch()[pri:1, instance:TestCases.SearchTest@6ae42248]" started-at="2025-09-08T19:04:08 IST" name="userCanSearch" finished-at="2025-09-08T19:04:09 IST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SearchTest@6ae42248]" started-at="2025-09-08T19:04:09 IST" name="tearDown" finished-at="2025-09-08T19:04:10 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SearchTest -->
+      <class name="TestCases.RegisterExcel">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.RegisterExcel@5a7e81]" started-at="2025-09-08T19:05:44 IST" name="setUp" finished-at="2025-09-08T19:05:48 IST" duration-ms="3716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RegisterExcel@5a7e81]" started-at="2025-09-08T19:05:48 IST" name="testUserRegistration" data-provider="registerData" finished-at="2025-09-08T19:05:48 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Utilities.ExcelReader.setExcelFile(ExcelReader.java:14)
+at TestCases.RegisterExcel.getRegisterData(RegisterExcel.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.RegisterExcel@5a7e81]" started-at="2025-09-08T19:05:48 IST" name="tearDown" finished-at="2025-09-08T19:05:49 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.RegisterExcel -->
+      <class name="TestCases.wishListTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.wishListTest@cf984d9]" started-at="2025-09-08T19:04:23 IST" name="setUp" finished-at="2025-09-08T19:04:26 IST" duration-ms="3631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAboutProduct()[pri:1, instance:TestCases.wishListTest@cf984d9]" started-at="2025-09-08T19:04:26 IST" name="searchAboutProduct" finished-at="2025-09-08T19:04:28 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAboutProduct -->
+        <test-method signature="userCanAddProductToWishList()[pri:2, instance:TestCases.wishListTest@cf984d9]" started-at="2025-09-08T19:04:28 IST" name="userCanAddProductToWishList" finished-at="2025-09-08T19:04:29 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddProductToWishList -->
+        <test-method signature="userCanRemoveProductFromWishList()[pri:3, instance:TestCases.wishListTest@cf984d9]" started-at="2025-09-08T19:04:29 IST" name="userCanRemoveProductFromWishList" finished-at="2025-09-08T19:04:30 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRemoveProductFromWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.wishListTest@cf984d9]" started-at="2025-09-08T19:04:30 IST" name="tearDown" finished-at="2025-09-08T19:04:30 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.wishListTest -->
+      <class name="TestCases.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:30 IST" name="setUp" finished-at="2025-09-08T19:04:33 IST" duration-ms="3577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userCanSearchAndOpenProduct()[pri:1, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:33 IST" name="userCanSearchAndOpenProduct" finished-at="2025-09-08T19:04:36 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearchAndOpenProduct -->
+        <test-method signature="userCanAddProductToCart()[pri:2, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:36 IST" name="userCanAddProductToCart" finished-at="2025-09-08T19:04:38 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddProductToCart -->
+        <test-method signature="userCanUpdateProductQuantity()[pri:3, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:38 IST" name="userCanUpdateProductQuantity" finished-at="2025-09-08T19:04:49 IST" duration-ms="11262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanUpdateProductQuantity -->
+        <test-method signature="userCanRemoveProductFromCart()[pri:4, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:49 IST" name="userCanRemoveProductFromCart" finished-at="2025-09-08T19:04:50 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.CartTest@1fa98a22]" started-at="2025-09-08T19:04:50 IST" name="tearDown" finished-at="2025-09-08T19:04:50 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.CartTest -->
+      <class name="TestCases.SearchByAutoSuggest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.SearchByAutoSuggest@40c28b0d]" started-at="2025-09-08T19:04:10 IST" name="setUp" finished-at="2025-09-08T19:04:14 IST" duration-ms="4498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchWithAutoSuggest()[pri:0, instance:TestCases.SearchByAutoSuggest@40c28b0d]" started-at="2025-09-08T19:04:14 IST" name="searchWithAutoSuggest" finished-at="2025-09-08T19:04:18 IST" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithAutoSuggest -->
+        <test-method signature="userCanSearchWithAutoSuggest()[pri:1, instance:TestCases.SearchByAutoSuggest@40c28b0d]" started-at="2025-09-08T19:04:18 IST" name="userCanSearchWithAutoSuggest" finished-at="2025-09-08T19:04:22 IST" depends-on-methods="TestCases.SearchByAutoSuggest.searchWithAutoSuggest" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanSearchWithAutoSuggest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SearchByAutoSuggest@40c28b0d]" started-at="2025-09-08T19:04:22 IST" name="tearDown" finished-at="2025-09-08T19:04:23 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SearchByAutoSuggest -->
+      <class name="TestCases.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.CheckoutTest@54941dfd]" started-at="2025-09-08T19:04:50 IST" name="setUp" finished-at="2025-09-08T19:04:55 IST" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutProcess()[pri:1, instance:TestCases.CheckoutTest@54941dfd]" started-at="2025-09-08T19:04:55 IST" name="testCheckoutProcess" finished-at="2025-09-08T19:05:43 IST" duration-ms="47975" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@onclick='if (!window.__cfRLUnblockHandlers) return false; Billing.save()']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError:  Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@onclick='if (!window.__cfRLUnblockHandlers) return false; Billing.save()']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at TestCases.CheckoutTest.testCheckoutProcess(CheckoutTest.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.CheckoutTest@54941dfd]" started-at="2025-09-08T19:05:43 IST" name="tearDown" finished-at="2025-09-08T19:05:44 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.CheckoutTest -->
+      <class name="TestCases.RegisterDataProvider">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.RegisterDataProvider@2b6a0ea9]" started-at="2025-09-08T19:02:36 IST" name="setUp" finished-at="2025-09-08T19:02:40 IST" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.RegisterDataProvider@2b6a0ea9]" started-at="2025-09-08T19:02:40 IST" name="ValidRegistration" data-provider="TestData" finished-at="2025-09-08T19:03:03 IST" duration-ms="23742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[praveenburri@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1987665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidRegistration -->
+        <test-method signature="RegisteredUserCanLogout()[pri:2, instance:TestCases.RegisterDataProvider@2b6a0ea9]" started-at="2025-09-08T19:03:03 IST" name="RegisteredUserCanLogout" finished-at="2025-09-08T19:03:24 IST" depends-on-methods="TestCases.RegisterDataProvider.ValidRegistration" duration-ms="20163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method signature="RegisteredUserCanLogin(java.lang.String,java.lang.String)[pri:2, instance:TestCases.RegisterDataProvider@2b6a0ea9]" started-at="2025-09-08T19:03:24 IST" name="RegisteredUserCanLogin" data-provider="LoginData" finished-at="2025-09-08T19:03:36 IST" depends-on-methods="TestCases.RegisterDataProvider.RegisteredUserCanLogout" duration-ms="12810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[praveenburri@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1987665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.RegisterDataProvider@2b6a0ea9]" started-at="2025-09-08T19:03:36 IST" name="tearDown" finished-at="2025-09-08T19:03:37 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.RegisterDataProvider -->
+      <class name="TestCases.Register">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.Register@3408f695]" started-at="2025-09-08T19:02:17 IST" name="setUp" finished-at="2025-09-08T19:02:25 IST" duration-ms="8177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidRegistration()[pri:1, instance:TestCases.Register@3408f695]" started-at="2025-09-08T19:02:25 IST" name="ValidRegistration" finished-at="2025-09-08T19:02:31 IST" duration-ms="5448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidRegistration -->
+        <test-method signature="RegisteredUserCanLogout()[pri:2, instance:TestCases.Register@3408f695]" started-at="2025-09-08T19:02:31 IST" name="RegisteredUserCanLogout" finished-at="2025-09-08T19:02:33 IST" depends-on-methods="TestCases.Register.ValidRegistration" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method signature="RegisteredUserCanLogin()[pri:3, instance:TestCases.Register@3408f695]" started-at="2025-09-08T19:02:33 IST" name="RegisteredUserCanLogin" finished-at="2025-09-08T19:02:36 IST" depends-on-methods="TestCases.Register.RegisteredUserCanLogout" duration-ms="2956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.Register@3408f695]" started-at="2025-09-08T19:02:36 IST" name="tearDown" finished-at="2025-09-08T19:02:36 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.Register -->
+      <class name="TestCases.SmokeTestAll">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:07 IST" name="setUp" finished-at="2025-09-08T19:02:11 IST" duration-ms="4303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageLoaded()[pri:1, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:11 IST" name="validateHomePageLoaded" finished-at="2025-09-08T19:02:11 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLoaded -->
+        <test-method signature="validateHomePageTitle()[pri:2, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:11 IST" name="validateHomePageTitle" finished-at="2025-09-08T19:02:11 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method signature="validateHomePageURL()[pri:3, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:11 IST" name="validateHomePageURL" finished-at="2025-09-08T19:02:11 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageURL -->
+        <test-method signature="validateLogoDisplayed()[pri:4, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:11 IST" name="validateLogoDisplayed" finished-at="2025-09-08T19:02:11 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoDisplayed -->
+        <test-method signature="validateRegisterButtonClickable()[pri:5, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:11 IST" name="validateRegisterButtonClickable" finished-at="2025-09-08T19:02:13 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterButtonClickable -->
+        <test-method signature="validateLoginButtonClickable()[pri:6, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:13 IST" name="validateLoginButtonClickable" finished-at="2025-09-08T19:02:14 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonClickable -->
+        <test-method signature="validateScrollToContactUs()[pri:7, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:14 IST" name="validateScrollToContactUs" finished-at="2025-09-08T19:02:14 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateScrollToContactUs -->
+        <test-method signature="validateTopMenuHover()[pri:8, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:14 IST" name="validateTopMenuHover" finished-at="2025-09-08T19:02:16 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTopMenuHover -->
+        <test-method signature="validateCurrencyDropdown()[pri:9, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:16 IST" name="validateCurrencyDropdown" finished-at="2025-09-08T19:02:17 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrencyDropdown -->
+        <test-method signature="validateCartIconClickable()[pri:10, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:17 IST" name="validateCartIconClickable" finished-at="2025-09-08T19:02:17 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartIconClickable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SmokeTestAll@6fe1b4fb]" started-at="2025-09-08T19:02:17 IST" name="tearDown" finished-at="2025-09-08T19:02:17 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SmokeTestAll -->
+    </test> <!-- nopCommerceTest -->
+  </suite> <!-- Suite -->
+</testng-results>

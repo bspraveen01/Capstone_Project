@@ -1,0 +1,401 @@
+<html>
+<head>
+<title>TestNG:  RegisterTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RegisterTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 08 16:56:06 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>209 seconds (209200 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.CheckoutTest.testCheckoutProcess()'><b>testCheckoutProcess</b><br>Test class: TestCases.CheckoutTest</td>
+<td><div><pre>java.lang.AssertionError: ❌ Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@onclick=&apos;if (!window.__cfRLUnblockHandlers) return false; Billing.save()&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at TestCases.CheckoutTest.testCheckoutProcess(CheckoutTest.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace746855108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace746855108'><pre>java.lang.AssertionError: ❌ Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@onclick=&apos;if (!window.__cfRLUnblockHandlers) return false; Billing.save()&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.testng.Assert.fail(Assert.java:111)
+	at TestCases.CheckoutTest.testCheckoutProcess(CheckoutTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>52</td>
+<td>TestCases.CheckoutTest@6ae42248</td></tr>
+<tr>
+<td title='TestCases.RegisterDataProvider.RegisteredUserCanLogin()'><b>RegisteredUserCanLogin</b><br>Test class: TestCases.RegisterDataProvider<br>Parameters: test0123@gmail.com, 1987665</td>
+<td><div><pre>java.lang.AssertionError: Logout link is not displayed after login! expected [true] but found [false]
+	at TestCases.RegisterDataProvider.RegisteredUserCanLogin(RegisterDataProvider.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace938987040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace938987040'><pre>java.lang.AssertionError: Logout link is not displayed after login! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at TestCases.RegisterDataProvider.RegisteredUserCanLogin(RegisterDataProvider.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>22</td>
+<td>TestCases.RegisterDataProvider@1860f3be</td></tr>
+<tr>
+<td title='TestCases.CartTest.userCanUpdateProductQuantity()'><b>userCanUpdateProductQuantity</b><br>Test class: TestCases.CartTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fa7458475a620a5fc999b88056240bc, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.D03346D1FA69524D58B3D75376419B09.d.9EB0334C419B3C44D80837DECC822101.e.123}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64188/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fa7458475a620a5fc999b88056240bc
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:475)
+	at pageObjects.CartPage.updateProductQuantityCart(CartPage.java:102)
+	at TestCases.CartTest.userCanUpdateProductQuantity(CartTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1011433682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1011433682'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fa7458475a620a5fc999b88056240bc, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.D03346D1FA69524D58B3D75376419B09.d.9EB0334C419B3C44D80837DECC822101.e.123}], script=arguments[0].click();}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64188/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fa7458475a620a5fc999b88056240bc
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:475)
+	at pageObjects.CartPage.updateProductQuantityCart(CartPage.java:102)
+	at TestCases.CartTest.userCanUpdateProductQuantity(CartTest.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>1</td>
+<td>TestCases.CartTest@3220c28</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateHomePageTitle()'><b>validateHomePageTitle</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.loggedInUserCanChangePassword()'><b>loggedInUserCanChangePassword</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateCurrencyDropdown()'><b>validateCurrencyDropdown</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.SearchByAutoSuggest.searchWithAutoSuggest()'><b>searchWithAutoSuggest</b><br>Test class: TestCases.SearchByAutoSuggest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.SearchByAutoSuggest@430d3021</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateHomePageURL()'><b>validateHomePageURL</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateLogoDisplayed()'><b>validateLogoDisplayed</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.wishListTest.searchAboutProduct()'><b>searchAboutProduct</b><br>Test class: TestCases.wishListTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.wishListTest@58f290bc</td></tr>
+<tr>
+<td title='TestCases.Register.ValidRegistration()'><b>ValidRegistration</b><br>Test class: TestCases.Register</td>
+<td></td>
+<td>2</td>
+<td>TestCases.Register@3c0e00a8</td></tr>
+<tr>
+<td title='TestCases.wishListTest.userCanRemoveProductFromWishList()'><b>userCanRemoveProductFromWishList</b><br>Test class: TestCases.wishListTest</td>
+<td></td>
+<td>0</td>
+<td>TestCases.wishListTest@58f290bc</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateRegisterButtonClickable()'><b>validateRegisterButtonClickable</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.closeNotificationBar()'><b>closeNotificationBar</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateHomePageLoaded()'><b>validateHomePageLoaded</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.registeredUserCanLogout()'><b>registeredUserCanLogout</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.SearchTest.searchAboutProduct()'><b>searchAboutProduct</b><br>Test class: TestCases.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.SearchTest@50672905</td></tr>
+<tr>
+<td title='TestCases.CartTest.userCanRemoveProductFromCart()'><b>userCanRemoveProductFromCart</b><br>Test class: TestCases.CartTest</td>
+<td></td>
+<td>0</td>
+<td>TestCases.CartTest@3220c28</td></tr>
+<tr>
+<td title='TestCases.Register.RegisteredUserCanLogin()'><b>RegisteredUserCanLogin</b><br>Test class: TestCases.Register</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Register@3c0e00a8</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateCartIconClickable()'><b>validateCartIconClickable</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.SearchByAutoSuggest.userCanSearchWithAutoSuggest()'><b>userCanSearchWithAutoSuggest</b><br>Test class: TestCases.SearchByAutoSuggest</td>
+<td></td>
+<td>6</td>
+<td>TestCases.SearchByAutoSuggest@430d3021</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateScrollToContactUs()'><b>validateScrollToContactUs</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.registeredUserCanLogin()'><b>registeredUserCanLogin</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.RegisterDataProvider.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: TestCases.RegisterDataProvider</td>
+<td></td>
+<td>20</td>
+<td>TestCases.RegisterDataProvider@1860f3be</td></tr>
+<tr>
+<td title='TestCases.SearchTest.userCanSearch()'><b>userCanSearch</b><br>Test class: TestCases.SearchTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SearchTest@50672905</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateLoginButtonClickable()'><b>validateLoginButtonClickable</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.CartTest.userCanSearchAndOpenProduct()'><b>userCanSearchAndOpenProduct</b><br>Test class: TestCases.CartTest</td>
+<td></td>
+<td>2</td>
+<td>TestCases.CartTest@3220c28</td></tr>
+<tr>
+<td title='TestCases.CartTest.userCanAddProductToCart()'><b>userCanAddProductToCart</b><br>Test class: TestCases.CartTest</td>
+<td></td>
+<td>1</td>
+<td>TestCases.CartTest@3220c28</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.validRegistration()'><b>validRegistration</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>5</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.SmokeTestAll.validateTopMenuHover()'><b>validateTopMenuHover</b><br>Test class: TestCases.SmokeTestAll</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SmokeTestAll@35f26e72</td></tr>
+<tr>
+<td title='TestCases.Register.RegisteredUserCanLogout()'><b>RegisteredUserCanLogout</b><br>Test class: TestCases.Register</td>
+<td></td>
+<td>1</td>
+<td>TestCases.Register@3c0e00a8</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.registeredUserCanLogoutAfterPasswordChange()'><b>registeredUserCanLogoutAfterPasswordChange</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.RegisterDataProvider.ValidRegistration()'><b>ValidRegistration</b><br>Test class: TestCases.RegisterDataProvider<br>Parameters: Sri, Sra, praveenburri@gmail.com, 1987665</td>
+<td></td>
+<td>23</td>
+<td>TestCases.RegisterDataProvider@1860f3be</td></tr>
+<tr>
+<td title='TestCases.MyAccountTests.userCanLoginWithNewPassword()'><b>userCanLoginWithNewPassword</b><br>Test class: TestCases.MyAccountTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.MyAccountTests@6ebbc06</td></tr>
+<tr>
+<td title='TestCases.wishListTest.userCanAddProductToWishList()'><b>userCanAddProductToWishList</b><br>Test class: TestCases.wishListTest</td>
+<td></td>
+<td>0</td>
+<td>TestCases.wishListTest@58f290bc</td></tr>
+</table><p>
+</body>
+</html>

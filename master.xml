@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+     <listener class-name="Utilities.TestListeners"/>
+  </listeners>
+  <test name="nopCommerceTest">
+    <classes>
+       <class name="TestCases.SmokeTestAll"/>
+       <class name="TestCases.Register"/>
+       <class name="TestCases.RegisterDataProvider"/>
+       <class name="TestCases.MyAccountTests"/>
+       <class name ="TestCases.SearchTest"/>
+        <class name ="TestCases.SearchByAutoSuggest"/>
+        <class name="TestCases.wishListTest"/>
+        <class name="TestCases.CartTest"/>
+        <class name="TestCases.CheckoutTest"/>  
+        <class name="TestCases.RegisterExcel"/>   
+    </classes>
+  </test>
+</suite>
