@@ -3,7 +3,8 @@ package TestCases;
 import pageObjects.CartValidationPage;
 import pageObjects.ProductPage;
 import pageObjects.SearchPage;
-import Utilities.Constants;
+import utils.Constants;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

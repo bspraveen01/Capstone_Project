@@ -1,4 +1,4 @@
-package Utilities;
+package utils;
 
 import java.io.IOException;
 

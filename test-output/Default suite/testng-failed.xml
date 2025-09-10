@@ -4,6 +4,13 @@
   <parameter name="browserName" value="chrome"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="TestCases.CheckoutTest">
+        <methods>
+          <include name="testCheckoutProcess"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.CheckoutTest -->
       <class name="TestCases.CartTest">
         <methods>
           <include name="userCanUpdateProductQuantity"/>
@@ -11,6 +18,29 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- TestCases.CartTest -->
+      <class name="TestCases.Register">
+        <methods>
+          <include name="ValidRegistration"/>
+          <include name="RegisteredUserCanLogin"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.Register -->
+      <class name="TestCases.RegisterExcel">
+        <methods>
+          <include name="testUserRegistration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.RegisterExcel -->
+      <class name="TestCases.wishListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="userCanRemoveProductFromWishList"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.wishListTest -->
       <class name="TestCases.CardValidationTest">
         <methods>
           <include name="testAddAndDisplayProductsInCompare"/>
@@ -19,20 +49,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- TestCases.CardValidationTest -->
-      <class name="TestCases.CheckoutTest">
-        <methods>
-          <include name="testCheckoutProcess"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestCases.CheckoutTest -->
-      <class name="TestCases.RegisterExcel">
-        <methods>
-          <include name="testUserRegistration"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestCases.RegisterExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,59 +8,375 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">nopCommerceTest</a></td><td class="num">34</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">222,027</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">32</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">238,064</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">nopCommerceTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCases.CheckoutTest</td><td><a href="#m0">testCheckoutProcess</a></td><td rowspan="1">1757338495800</td><td rowspan="1">47975</td></tr><tr class="failedodd"><td rowspan="1">TestCases.RegisterExcel</td><td><a href="#m1">testUserRegistration</a></td><td rowspan="1">1757338548168</td><td rowspan="1">0</td></tr><tr><th colspan="4">nopCommerceTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">TestCases.CartTest</td><td><a href="#m2">userCanAddProductToCart</a></td><td rowspan="1">1757338476300</td><td rowspan="1">1997</td></tr><tr class="passedeven"><td><a href="#m3">userCanRemoveProductFromCart</a></td><td rowspan="1">1757338489563</td><td rowspan="1">608</td></tr><tr class="passedeven"><td><a href="#m4">userCanSearchAndOpenProduct</a></td><td rowspan="1">1757338473924</td><td rowspan="1">2374</td></tr><tr class="passedeven"><td><a href="#m5">userCanUpdateProductQuantity</a></td><td rowspan="1">1757338478299</td><td rowspan="1">11262</td></tr><tr class="passedodd"><td rowspan="7">TestCases.MyAccountTests</td><td><a href="#m6">closeNotificationBar</a></td><td rowspan="1">1757338436311</td><td rowspan="1">244</td></tr><tr class="passedodd"><td><a href="#m7">loggedInUserCanChangePassword</a></td><td rowspan="1">1757338433022</td><td rowspan="1">3284</td></tr><tr class="passedodd"><td><a href="#m8">registeredUserCanLogin</a></td><td rowspan="1">1757338430271</td><td rowspan="1">2748</td></tr><tr class="passedodd"><td><a href="#m9">registeredUserCanLogout</a></td><td rowspan="1">1757338428768</td><td rowspan="1">1500</td></tr><tr class="passedodd"><td><a href="#m10">registeredUserCanLogoutAfterPasswordChange</a></td><td rowspan="1">1757338436559</td><td rowspan="1">2752</td></tr><tr class="passedodd"><td><a href="#m11">userCanLoginWithNewPassword</a></td><td rowspan="1">1757338439314</td><td rowspan="1">2639</td></tr><tr class="passedodd"><td><a href="#m12">validRegistration</a></td><td rowspan="1">1757338421060</td><td rowspan="1">7702</td></tr><tr class="passedeven"><td rowspan="3">TestCases.Register</td><td><a href="#m13">RegisteredUserCanLogin</a></td><td rowspan="1">1757338353231</td><td rowspan="1">2956</td></tr><tr class="passedeven"><td><a href="#m14">RegisteredUserCanLogout</a></td><td rowspan="1">1757338351166</td><td rowspan="1">2060</td></tr><tr class="passedeven"><td><a href="#m15">ValidRegistration</a></td><td rowspan="1">1757338345711</td><td rowspan="1">5448</td></tr><tr class="passedodd"><td rowspan="3">TestCases.RegisterDataProvider</td><td><a href="#m16">RegisteredUserCanLogin</a></td><td rowspan="1">1757338404017</td><td rowspan="1">12810</td></tr><tr class="passedodd"><td><a href="#m17">RegisteredUserCanLogout</a></td><td rowspan="1">1757338383849</td><td rowspan="1">20163</td></tr><tr class="passedodd"><td><a href="#m18">ValidRegistration</a></td><td rowspan="1">1757338360101</td><td rowspan="1">23742</td></tr><tr class="passedeven"><td rowspan="2">TestCases.SearchByAutoSuggest</td><td><a href="#m19">searchWithAutoSuggest</a></td><td rowspan="1">1757338454519</td><td rowspan="1">4185</td></tr><tr class="passedeven"><td><a href="#m20">userCanSearchWithAutoSuggest</a></td><td rowspan="1">1757338458706</td><td rowspan="1">4086</td></tr><tr class="passedodd"><td rowspan="2">TestCases.SearchTest</td><td><a href="#m21">searchAboutProduct</a></td><td rowspan="1">1757338446066</td><td rowspan="1">2237</td></tr><tr class="passedodd"><td><a href="#m22">userCanSearch</a></td><td rowspan="1">1757338448305</td><td rowspan="1">1437</td></tr><tr class="passedeven"><td rowspan="10">TestCases.SmokeTestAll</td><td><a href="#m23">validateCartIconClickable</a></td><td rowspan="1">1757338337048</td><td rowspan="1">100</td></tr><tr class="passedeven"><td><a href="#m24">validateCurrencyDropdown</a></td><td rowspan="1">1757338336008</td><td rowspan="1">1033</td></tr><tr class="passedeven"><td><a href="#m25">validateHomePageLoaded</a></td><td rowspan="1">1757338331424</td><td rowspan="1">383</td></tr><tr class="passedeven"><td><a href="#m26">validateHomePageTitle</a></td><td rowspan="1">1757338331814</td><td rowspan="1">58</td></tr><tr class="passedeven"><td><a href="#m27">validateHomePageURL</a></td><td rowspan="1">1757338331876</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m28">validateLoginButtonClickable</a></td><td rowspan="1">1757338333041</td><td rowspan="1">1041</td></tr><tr class="passedeven"><td><a href="#m29">validateLogoDisplayed</a></td><td rowspan="1">1757338331890</td><td rowspan="1">44</td></tr><tr class="passedeven"><td><a href="#m30">validateRegisterButtonClickable</a></td><td rowspan="1">1757338331938</td><td rowspan="1">1098</td></tr><tr class="passedeven"><td><a href="#m31">validateScrollToContactUs</a></td><td rowspan="1">1757338334091</td><td rowspan="1">142</td></tr><tr class="passedeven"><td><a href="#m32">validateTopMenuHover</a></td><td rowspan="1">1757338334235</td><td rowspan="1">1768</td></tr><tr class="passedodd"><td rowspan="3">TestCases.wishListTest</td><td><a href="#m33">searchAboutProduct</a></td><td rowspan="1">1757338466727</td><td rowspan="1">2024</td></tr><tr class="passedodd"><td><a href="#m34">userCanAddProductToWishList</a></td><td rowspan="1">1757338468754</td><td rowspan="1">687</td></tr><tr class="passedodd"><td><a href="#m35">userCanRemoveProductFromWishList</a></td><td rowspan="1">1757338469445</td><td rowspan="1">687</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCases.CardValidationTest</td><td><a href="#m0">testAddAndDisplayProductsInCompare</a></td><td rowspan="1">1757345798585</td><td rowspan="1">17544</td></tr><tr class="failedeven"><td><a href="#m1">testCompareProductsDisplay</a></td><td rowspan="1">1757345816134</td><td rowspan="1">18155</td></tr><tr class="failedodd"><td rowspan="1">TestCases.CartTest</td><td><a href="#m2">userCanUpdateProductQuantity</a></td><td rowspan="1">1757345869426</td><td rowspan="1">5261</td></tr><tr class="failedeven"><td rowspan="1">TestCases.CheckoutTest</td><td><a href="#m3">testCheckoutProcess</a></td><td rowspan="1">1757345879026</td><td rowspan="1">3852</td></tr><tr class="failedodd"><td rowspan="1">TestCases.Register</td><td><a href="#m4">RegisteredUserCanLogin</a></td><td rowspan="1">1757345945279</td><td rowspan="1">11074</td></tr><tr class="failedeven"><td rowspan="1">TestCases.RegisterExcel</td><td><a href="#m5">testUserRegistration</a></td><td rowspan="1">1757345898936</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">TestCases.wishListTest</td><td><a href="#m6">userCanRemoveProductFromWishList</a></td><td rowspan="1">1757345840031</td><td rowspan="1">20115</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCases.CardValidationTest</td><td><a href="#m7">testClearCompareList</a></td><td rowspan="1">1757345768938</td><td rowspan="1">29644</td></tr><tr class="passedodd"><td rowspan="3">TestCases.CartTest</td><td><a href="#m8">userCanAddProductToCart</a></td><td rowspan="1">1757345868291</td><td rowspan="1">1135</td></tr><tr class="passedodd"><td><a href="#m9">userCanRemoveProductFromCart</a></td><td rowspan="1">1757345874689</td><td rowspan="1">681</td></tr><tr class="passedodd"><td><a href="#m10">userCanSearchAndOpenProduct</a></td><td rowspan="1">1757345866554</td><td rowspan="1">1735</td></tr><tr class="passedeven"><td rowspan="7">TestCases.MyAccountTests</td><td><a href="#m11">closeNotificationBar</a></td><td rowspan="1">1757345753577</td><td rowspan="1">200</td></tr><tr class="passedeven"><td><a href="#m12">loggedInUserCanChangePassword</a></td><td rowspan="1">1757345750907</td><td rowspan="1">2665</td></tr><tr class="passedeven"><td><a href="#m13">registeredUserCanLogin</a></td><td rowspan="1">1757345745865</td><td rowspan="1">5038</td></tr><tr class="passedeven"><td><a href="#m14">registeredUserCanLogout</a></td><td rowspan="1">1757345744981</td><td rowspan="1">882</td></tr><tr class="passedeven"><td><a href="#m15">registeredUserCanLogoutAfterPasswordChange</a></td><td rowspan="1">1757345753781</td><td rowspan="1">2955</td></tr><tr class="passedeven"><td><a href="#m16">userCanLoginWithNewPassword</a></td><td rowspan="1">1757345756738</td><td rowspan="1">1972</td></tr><tr class="passedeven"><td><a href="#m17">validRegistration</a></td><td rowspan="1">1757345741785</td><td rowspan="1">3190</td></tr><tr class="passedodd"><td rowspan="2">TestCases.Register</td><td><a href="#m18">RegisteredUserCanLogout</a></td><td rowspan="1">1757345944385</td><td rowspan="1">890</td></tr><tr class="passedodd"><td><a href="#m19">ValidRegistration</a></td><td rowspan="1">1757345941944</td><td rowspan="1">2439</td></tr><tr class="passedeven"><td rowspan="3">TestCases.RegisterDataProvider</td><td><a href="#m20">RegisteredUserCanLogin</a></td><td rowspan="1">1757345925909</td><td rowspan="1">12676</td></tr><tr class="passedeven"><td><a href="#m21">RegisteredUserCanLogout</a></td><td rowspan="1">1757345925029</td><td rowspan="1">879</td></tr><tr class="passedeven"><td><a href="#m22">ValidRegistration</a></td><td rowspan="1">1757345902481</td><td rowspan="1">22547</td></tr><tr class="passedodd"><td rowspan="2">TestCases.SearchByAutoSuggest</td><td><a href="#m23">searchWithAutoSuggest</a></td><td rowspan="1">1757345959691</td><td rowspan="1">4212</td></tr><tr class="passedodd"><td><a href="#m24">userCanSearchWithAutoSuggest</a></td><td rowspan="1">1757345963905</td><td rowspan="1">3539</td></tr><tr class="passedeven"><td rowspan="2">TestCases.SearchTest</td><td><a href="#m25">searchAboutProduct</a></td><td rowspan="1">1757345762259</td><td rowspan="1">1832</td></tr><tr class="passedeven"><td><a href="#m26">userCanSearch</a></td><td rowspan="1">1757345764093</td><td rowspan="1">1365</td></tr><tr class="passedodd"><td rowspan="10">TestCases.SmokeTestAll</td><td><a href="#m27">validateCartIconClickable</a></td><td rowspan="1">1757345895542</td><td rowspan="1">78</td></tr><tr class="passedodd"><td><a href="#m28">validateCurrencyDropdown</a></td><td rowspan="1">1757345894409</td><td rowspan="1">1132</td></tr><tr class="passedodd"><td><a href="#m29">validateHomePageLoaded</a></td><td rowspan="1">1757345885733</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m30">validateHomePageTitle</a></td><td rowspan="1">1757345885742</td><td rowspan="1">10</td></tr><tr class="passedodd"><td><a href="#m31">validateHomePageURL</a></td><td rowspan="1">1757345885754</td><td rowspan="1">11</td></tr><tr class="passedodd"><td><a href="#m32">validateLoginButtonClickable</a></td><td rowspan="1">1757345887146</td><td rowspan="1">974</td></tr><tr class="passedodd"><td><a href="#m33">validateLogoDisplayed</a></td><td rowspan="1">1757345885766</td><td rowspan="1">356</td></tr><tr class="passedodd"><td><a href="#m34">validateRegisterButtonClickable</a></td><td rowspan="1">1757345886123</td><td rowspan="1">1021</td></tr><tr class="passedodd"><td><a href="#m35">validateScrollToContactUs</a></td><td rowspan="1">1757345888121</td><td rowspan="1">95</td></tr><tr class="passedodd"><td><a href="#m36">validateTopMenuHover</a></td><td rowspan="1">1757345888217</td><td rowspan="1">6189</td></tr><tr class="passedeven"><td rowspan="2">TestCases.wishListTest</td><td><a href="#m37">searchAboutProduct</a></td><td rowspan="1">1757345837634</td><td rowspan="1">1885</td></tr><tr class="passedeven"><td><a href="#m38">userCanAddProductToWishList</a></td><td rowspan="1">1757345839520</td><td rowspan="1">510</td></tr></tbody>
 </table>
-<h2>nopCommerceTest</h2><h3 id="m0">TestCases.CheckoutTest#testCheckoutProcess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Checkout test failed: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@onclick=&apos;if (!window.__cfRLUnblockHandlers) return false; Billing.save()&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+<h2>Default test</h2><h3 id="m0">TestCases.CardValidationTest#testAddAndDisplayProductsInCompare</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Apple MacBook Pro 13-inch&quot;}
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12447ca3e1c8f6c1b80492b9363f65c6, findElement {using=link text, value=Apple MacBook Pro 13-inch}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63299/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12447ca3e1c8f6c1b80492b9363f65c6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at TestCases.CardValidationTest.testAddAndDisplayProductsInCompare(CardValidationTest.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.CardValidationTest#testCompareProductsDisplay</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Apple MacBook Pro 13-inch&quot;}
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12447ca3e1c8f6c1b80492b9363f65c6, findElement {using=link text, value=Apple MacBook Pro 13-inch}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63299/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12447ca3e1c8f6c1b80492b9363f65c6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at TestCases.CardValidationTest.testCompareProductsDisplay(CardValidationTest.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.CartTest#userCanUpdateProductQuantity</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d81e42d5da043bcd8ce6fff55788194d, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.F6D239991EA56C51B3F8A18A294161B1.d.D271BD5D7EE3998541DD042AEE92A6F0.e.115}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49708/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d81e42d5da043bcd8ce6fff55788194d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at pageObjects.CartPage.updateProductQuantityCart(CartPage.java:102)
+	at TestCases.CartTest.userCanUpdateProductQuantity(CartTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCases.CheckoutTest#testCheckoutProcess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Checkout test failed: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (1287, 22). Other element would receive the click: &lt;p class=&quot;content&quot;&gt;...&lt;/p&gt;
+  (Session info: chrome=140.0.7339.80)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [221d4415f43abf712a5231afffa5b3a9, clickElement {id=f.CC345A159E3C13BC368D4C4412C9BC40.d.4F369BFA029DA9DA27CE76ECF3FB9F4A.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49752/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (221d4415f43abf712a5231afffa5b3a9)] -&gt; xpath: //span[@class=&apos;cart-label&apos;]]
+Session ID: 221d4415f43abf712a5231afffa5b3a9
+	at org.testng.Assert.fail(Assert.java:111)
 	at TestCases.CheckoutTest.testCheckoutProcess(CheckoutTest.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestCases.RegisterExcel#testUserRegistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.Register#RegisteredUserCanLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Logout link is not displayed after login! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at TestCases.Register.RegisteredUserCanLogin(Register.java:60)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.RegisterExcel#testUserRegistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:812)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: java.io.FileNotFoundException: D:\Selenium-Youtube_Workspace\nopCommerceCapstonesrc\test\resources\userrData.xlsx (The system cannot find the path specified)
 	at java.base/java.io.FileInputStream.open0(Native Method)
 	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:152)
 	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
-	at Utilities.ExcelReader.setExcelFile(ExcelReader.java:14)
+	at utils.ExcelReader.setExcelFile(ExcelReader.java:14)
 	at TestCases.RegisterExcel.getRegisterData(RegisterExcel.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
 	... 25 more
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestCases.CartTest#userCanAddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestCases.CartTest#userCanRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestCases.CartTest#userCanSearchAndOpenProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestCases.CartTest#userCanUpdateProductQuantity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">TestCases.MyAccountTests#closeNotificationBar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">TestCases.MyAccountTests#loggedInUserCanChangePassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">TestCases.MyAccountTests#registeredUserCanLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">TestCases.MyAccountTests#registeredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">TestCases.MyAccountTests#registeredUserCanLogoutAfterPasswordChange</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">TestCases.MyAccountTests#userCanLoginWithNewPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">TestCases.MyAccountTests#validRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">TestCases.Register#RegisteredUserCanLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">TestCases.Register#RegisteredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">TestCases.Register#ValidRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m16">TestCases.RegisterDataProvider#RegisteredUserCanLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>praveenburri@gmail.com</td><td>1987665</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m17">TestCases.RegisterDataProvider#RegisteredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m18">TestCases.RegisterDataProvider#ValidRegistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sri</td><td>Sra</td><td>praveenburri@gmail.com</td><td>1987665</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m19">TestCases.SearchByAutoSuggest#searchWithAutoSuggest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m20">TestCases.SearchByAutoSuggest#userCanSearchWithAutoSuggest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m21">TestCases.SearchTest#searchAboutProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m22">TestCases.SearchTest#userCanSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m23">TestCases.SmokeTestAll#validateCartIconClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m24">TestCases.SmokeTestAll#validateCurrencyDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m25">TestCases.SmokeTestAll#validateHomePageLoaded</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m26">TestCases.SmokeTestAll#validateHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m27">TestCases.SmokeTestAll#validateHomePageURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m28">TestCases.SmokeTestAll#validateLoginButtonClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m29">TestCases.SmokeTestAll#validateLogoDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m30">TestCases.SmokeTestAll#validateRegisterButtonClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m31">TestCases.SmokeTestAll#validateScrollToContactUs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m32">TestCases.SmokeTestAll#validateTopMenuHover</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m33">TestCases.wishListTest#searchAboutProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m34">TestCases.wishListTest#userCanAddProductToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m35">TestCases.wishListTest#userCanRemoveProductFromWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.wishListTest#userCanRemoveProductFromWishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: button.remove-btn&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.Wishlist.removeProductFromWishList(Wishlist.java:25)
+	at TestCases.wishListTest.userCanRemoveProductFromWishList(wishListTest.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;button.remove-btn&quot;}
+  (Session info: chrome=140.0.7339.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7305c6e1b449d70c06ab8168bdd2b079, findElement {using=css selector, value=button.remove-btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.80, chrome: {chromedriverVersion: 140.0.7339.80 (670b6f192f46..., userDataDir: C:\Users\SRIRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63354/devtoo..., se:cdpVersion: 140.0.7339.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7305c6e1b449d70c06ab8168bdd2b079
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.CardValidationTest#testClearCompareList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.CartTest#userCanAddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.CartTest#userCanRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases.CartTest#userCanSearchAndOpenProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestCases.MyAccountTests#closeNotificationBar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestCases.MyAccountTests#loggedInUserCanChangePassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestCases.MyAccountTests#registeredUserCanLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestCases.MyAccountTests#registeredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestCases.MyAccountTests#registeredUserCanLogoutAfterPasswordChange</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestCases.MyAccountTests#userCanLoginWithNewPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">TestCases.MyAccountTests#validRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">TestCases.Register#RegisteredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">TestCases.Register#ValidRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">TestCases.RegisterDataProvider#RegisteredUserCanLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>praveenburri@gmail.com</td><td>1987665</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">TestCases.RegisterDataProvider#RegisteredUserCanLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">TestCases.RegisterDataProvider#ValidRegistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Sri</td><td>Sra</td><td>praveenburri@gmail.com</td><td>1987665</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">TestCases.SearchByAutoSuggest#searchWithAutoSuggest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">TestCases.SearchByAutoSuggest#userCanSearchWithAutoSuggest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">TestCases.SearchTest#searchAboutProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">TestCases.SearchTest#userCanSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">TestCases.SmokeTestAll#validateCartIconClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">TestCases.SmokeTestAll#validateCurrencyDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">TestCases.SmokeTestAll#validateHomePageLoaded</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">TestCases.SmokeTestAll#validateHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">TestCases.SmokeTestAll#validateHomePageURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m32">TestCases.SmokeTestAll#validateLoginButtonClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m33">TestCases.SmokeTestAll#validateLogoDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m34">TestCases.SmokeTestAll#validateRegisterButtonClickable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m35">TestCases.SmokeTestAll#validateScrollToContactUs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m36">TestCases.SmokeTestAll#validateTopMenuHover</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m37">TestCases.wishListTest#searchAboutProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m38">TestCases.wishListTest#userCanAddProductToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

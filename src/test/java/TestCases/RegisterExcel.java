@@ -4,9 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import Utilities.ExcelReader;
 import pageObjects.HomePage;
 import pageObjects.RegisterPage;
+import utils.ExcelReader;
 
 public class RegisterExcel extends BaseTest {
 

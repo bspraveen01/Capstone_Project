@@ -3,7 +3,7 @@ package TestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.*;
-import Utilities.Constants;
+import utils.Constants;
 
 public class CheckoutTest extends BaseTest {
 

@@ -1,4 +1,4 @@
-package Utilities;
+package utils;
 
 public class Constants {
     public static final String BASE_URL = "https://demo.nopcommerce.com";

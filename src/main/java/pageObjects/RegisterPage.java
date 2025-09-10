@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegisterPage extends BasePage {
 
-    public static final String getSuccessfulMessage = null;
+
 
 
 	public RegisterPage(WebDriver driver) {
@@ -108,14 +108,14 @@ public class RegisterPage extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(registerButton)).click();
     }
 
-    public String getSuccessMessage() {
-        try {
-            wait.until(ExpectedConditions.visibilityOf(successMsg));
-            return successMsg.getText();
-        } catch (Exception e) {
-            return ""; // Return empty if element not found
-        }
-    }
+//    public String getSuccessMessage() {
+//        try {
+//            wait.until(ExpectedConditions.visibilityOf(successMsg));
+//            return successMsg.getText();
+//        } catch (Exception e) {
+//            return ""; // Return empty if element not found
+//        }
+//    }
 
     public String getExitingerrorMessage() {
         try {
@@ -147,5 +147,9 @@ public class RegisterPage extends BasePage {
     public void register(String fname, String lname, String emailId, String pwd) {
         registrationForm(fname, lname, emailId, pwd);
         clickRegisterButton();
+    }
+    
+    public String getSuccessMessage() {
+        return successMsg.getText();
     }
 }
